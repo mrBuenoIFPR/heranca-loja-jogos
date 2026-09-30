@@ -1,5 +1,5 @@
 <?php
-require_once("Produtos.php");
+require_once("Produto.php");
 
 class Jogo extends Produto {
     private int $anoLancamento;
