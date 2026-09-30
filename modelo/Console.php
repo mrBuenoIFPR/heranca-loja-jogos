@@ -2,16 +2,16 @@
 require_once("Produto.php");
 
 class Console extends Produto {
-    private int $geracao;
+    private string $geracao;
     private string $marca;
     private string $cor;
 
-    public function getGeracao(): int
+    public function getGeracao(): string
     {
         return $this->geracao;
     }
 
-    public function setGeracao(int $geracao): self
+    public function setGeracao(string $geracao): self
     {
         $this->geracao = $geracao;
 
