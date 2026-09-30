@@ -2,7 +2,7 @@
 
 class Produto {
     protected string $nome;
-    protected int $preco;
+    protected float $preco;
 
     public function getNome(): string
     {
@@ -16,7 +16,7 @@ class Produto {
         return $this;
     }
 
-    public function getPreco(): int
+    public function getPreco(): float
     {
         return $this->preco;
     }
